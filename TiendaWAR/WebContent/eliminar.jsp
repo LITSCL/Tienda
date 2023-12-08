@@ -1,9 +1,9 @@
-<%@ page language="java" contentType="text/html; charset=ISO-8859-1"
-	pageEncoding="ISO-8859-1"%>
+<%@ page language="java" contentType="text/html; charset=UTF-8"
+    pageEncoding="UTF-8"%>
 <!DOCTYPE html>
 <html>
 <head>
-<meta charset="ISO-8859-1">
+<meta charset="UTF-8">
 <title>Insert title here</title>
 </head>
 <body>
@@ -16,7 +16,7 @@
 	</nav>
 	<hr>
 	<p>ID a eliminar: ${param.id}</p>
-	<p>¿Estas seguro que deseas eliminar la sucursal?</p>
+	<p>Â¿Estas seguro que deseas eliminar la sucursal?</p>
 	<a href="SucursalControlador?id=${param.id}&opcion=3">Si</a>
 	<a href="index.html">No</a>
 </body>
