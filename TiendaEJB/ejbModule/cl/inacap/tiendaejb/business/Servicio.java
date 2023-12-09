@@ -30,9 +30,9 @@ public class Servicio implements ServicioLocal {
 		try {
 			em.persist(su);
 			em.flush();
-			return "Sucursal a�adida con exito";
+			return "Sucursal añadida con exito";
 		} catch(Exception ex) {
-			return "No se pudo a�adir la sucursal";
+			return "No se pudo añadir la sucursal";
 		}
 		finally {
 			em.close();
